@@ -7,5 +7,5 @@ The project aims to using Python Socket network programming to implement “Larg
 4.	Trusty: No error should be occurred. As one error occurs, the recovery should happen without retransmission. Data transmission security is also allowed.
 
 # How to use
-In three virtual machine, the file is the same. Run command: python3 main.py --ip <ipv4 addresses>, the documents in the "share" file will be synchronized.
+In three virtual machine, the file is the same. Run command: python3 main.py --ip <ipv4 addresses>, the documents in the "share" file(in the current directory) will be synchronized. If the "share" file does not exist, it will create the "share" file automatically.
 For each virtual machine, the command will be started as: python3 main.py --ip 192.168.xxx.xxx,192.168.xxx.xxx
